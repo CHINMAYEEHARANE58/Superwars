@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wars {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 15rem;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+  
+  .heroes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+    gap: 16px;
+  }
+  
+  .items {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    padding: 5px;
+  }
+  
+  .items p {
+    font-size: 15px;
+  }
+  
+  h3 {
+    font-size: 40px;
+    font-weight: 10;
+  }
+  
+  .score {
+    margin: 10px;
+  }
+  
+  .score p {
+    font-size: 50px;
+  }
+  
+  .villans {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+    gap: 10px;
+  }
+  
+  .footer {
+    margin-left: 80px;
+    font-size: 18px;
+  }
+  
