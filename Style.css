@@ -61,3 +61,6 @@
     font-size: 18px;
   }
   
+  .Vader{
+    grid-column-start: 3;
+  }
